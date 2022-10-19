@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OneSignal Q5</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-  <script>
-    window.OneSignal = window.OneSignal || [];
-    OneSignal.push(function() {
-      OneSignal.init({
-        appId: "9f2e5f09-bb0f-430d-bfbd-a68211f77898",
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OneSignal Q5</title>
+    <style>
+      * {
+        height: 100vh;
+        background: linear-gradient(to top left, #ccccff 0%, #ffffff 100%);
+      }
+
+      h1 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+
+    <script
+      src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"
+      async=""
+    ></script>
+    <script>
+      window.OneSignal = window.OneSignal || [];
+      OneSignal.push(function () {
+        OneSignal.init({
+          appId: "4db33649-2291-4da4-ae32-b1146ee07408",
+        });
       });
-    });
-  </script>
-</head>
-<body>
-  <h1>THIS IS A TEST</h1>
-</body>
+    </script>
+  </head>
+  <body>
+    <h1>THIS IS A TEST</h1>
+  </body>
 </html>
